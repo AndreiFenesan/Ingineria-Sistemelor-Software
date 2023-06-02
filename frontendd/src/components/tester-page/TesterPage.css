@@ -1,0 +1,11 @@
+#tester-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+#bugs-container{
+    height: 100vh;
+    width: 40vw;
+    overflow: scroll;
+}

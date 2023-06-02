@@ -1,0 +1,26 @@
+#programmer-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#bugs-view{
+    width: 100vw;
+    height: 60vh;
+    /*background-color: red;*/
+    display: flex;
+    justify-content: space-around;
+}
+#error-container{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bugs-container{
+    height: 100%;
+    width: 42vw;
+    overflow: scroll;
+}
